@@ -13,4 +13,4 @@ To go (or create) a spec file, run
 
 You'll probably want to add something to your vimrc like
 
-    noremap <leader><s> :call JsSpecNavigate()<CR>
+    noremap <leader>z :call JsSpecNavigate()<CR>

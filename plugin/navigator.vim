@@ -5,7 +5,7 @@ let g:javascript_spec_spec_ext         = "_spec.js.coffee"
 
 function! JSSpecWriteSpecTemplate()
   let s:old_yank = @@
-  execute "silent! normal! gg yy<cr>"
+  execute "silent! normal! gg yy"
   if len(@@) < 5
     call append(0, "\#= require support/spec_helper")
     call append(1, "describe \"\", ->")
